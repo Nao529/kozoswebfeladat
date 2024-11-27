@@ -9,11 +9,13 @@ drótváz
 
 asztali nézet
 he he
+na na
 as ar
 fo fo
 
 telefon nézet
 he
+na
 as
 ar
 fo
