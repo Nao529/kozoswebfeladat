@@ -1,3 +1,12 @@
-body {
-    background-color: aqua;
+
+
+
+.overworld-body {
+    background-image: url(kepek/overworld/dirt.png);
+}
+.nether-body {
+    background-image: url(kepek/nether/netherrack.png);
+}
+.end-body {
+    background-image: url(kepek/end/endstone.png);
 }
