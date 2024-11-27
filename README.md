@@ -1,6 +1,19 @@
 # kozoswebfeladat
+minecraft oldalak
 
-aaa
-aaaaaa
+1 oldal: overworld  index.html
+1 oldal: nether     nether.html
+1 oldal: the end    theend.html
 
-wtrzrtzir
+drótváz
+
+asztali nézet
+he he
+as ar
+fo fo
+
+telefon nézet
+he
+as
+ar
+fo
