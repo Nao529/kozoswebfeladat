@@ -28,8 +28,12 @@ li a:hover {
 }
 
 #minecraft_logo {
-    height: 50px;
+    
     text-align: center;
+}
+
+#minecraft_logo img {
+    height: 50px;
 }
 
 #overworld-body {
