@@ -1,9 +1,14 @@
 body {
     color: white;
 }
+
+
 #minecraft_logo {
-    height: 50px;
+    
     text-align: center;
+}
+#minecraft_logo img {
+    height: 50px;
 }
 
 #overworld-body {
@@ -15,6 +20,7 @@ body {
 #end-body {
     background-image: url(kepek/end/endstone.png);
 }
+
 
 ul {
     list-style-type: none;
