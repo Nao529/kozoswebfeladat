@@ -3,14 +3,40 @@ body {
 }
 
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: yellow;
+}
+  
+.active {
+    background-color: pink;
+}
 
-
-.overworld-body {
+#overworld-body {
     background-image: url(kepek/overworld/dirt.png);
 }
-.nether-body {
+#nether-body {
     background-image: url(kepek/nether/netherrack.png);
 }
-.end-body {
+#end-body {
     background-image: url(kepek/end/endstone.png);
 }
