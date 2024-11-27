@@ -1,7 +1,20 @@
 body {
     color: white;
 }
+#minecraft_logo {
+    height: 50px;
+    text-align: center;
+}
 
+#overworld-body {
+    background-image: url(kepek/overworld/dirt.png);
+}
+#nether-body {
+    background-image: url(kepek/nether/netherrack.png);
+}
+#end-body {
+    background-image: url(kepek/end/endstone.png);
+}
 
 ul {
     list-style-type: none;
@@ -27,17 +40,42 @@ li a:hover {
     background-color: #999999;
 }
 
-#minecraft_logo {
-    height: 50px;
-    text-align: center;
+main {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-areas: "he he"
+                         "na na"
+                         "as ar"
+                         "fo fo";
 }
-
-#overworld-body {
-    background-image: url(kepek/overworld/dirt.png);
+header {
+    grid-area: he;
 }
-#nether-body {
-    background-image: url(kepek/nether/netherrack.png);
+nav {
+    grid-area: na;
 }
-#end-body {
-    background-image: url(kepek/end/endstone.png);
+article {
+    grid-area: ar;
+}
+aside {
+    grid-area: as;
+}
+footer {
+    grid-area: fo;
+}
+@media screen and (max-width:700px) {
+    main {
+        grid-template-columns: 1fr;
+        grid-template-areas: "he"
+                             "na"
+                             "as"
+                             "ar"
+                             "fo";
+    }
+    article {
+        grid-template-columns: 1fr;
+    }
+    aside {
+        grid-template-columns: 2fr;
+    }
 }
