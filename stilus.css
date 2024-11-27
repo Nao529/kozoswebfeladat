@@ -8,23 +8,23 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #3d3d5c;
+    background-color: #666666;
 }
 li {
     float: left;
 } 
 li a {
     display: block;
-    color: whitesmoke;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 } 
-li a:hover:not(.active) {
-    background-color: #9494b8;
+li a:hover {
+    background-color: #cccccc;
 }
 .active {
-    background-color: #c2c2d6;
+    background-color: #999999;
 }
 
 #minecraft_wiki_image {
