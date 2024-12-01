@@ -1,5 +1,5 @@
 body {
-    color: white;
+    color: black;
 }
 
 
@@ -21,39 +21,80 @@ body {
     background-image: url(kepek/end/endstone.png);
 }
 
+#overworld_nav ul {
+    background-color: #006c00;
+}
+
+#overworld_nav li a {
+    color: #ffffff;
+}
+#overworld_nav li a:hover {
+    background-color: #00631e;
+}
+#overworld_nav .active {
+    background-color: #00550b;
+}
+
+#nether_nav ul {
+    background-color: #800000;
+}
+#nether_nav li a {
+    color: #ffffff;
+}
+#nether_nav li a:hover {
+    background-color: #b90000;
+}
+#nether_nav .active {
+    background-color: #9e0000;
+}
+
+#end_nav ul {
+    background-color: #75675a;
+}
+#end_nav li a {
+    color: #ffffff;
+}
+#end_nav li a:hover {
+    background-color: #605348;
+}
+#end_nav .active {
+    background-color: #52463b;
+}
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #666666;
 }
 li {
     float: left;
 } 
 li a {
     display: block;
-    color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 40px;
     text-decoration: none;
 } 
-li a:hover {
-    background-color: #cccccc;
-}
-.active {
-    background-color: #999999;
-}
 
 main {
     display: grid;
     grid-template-columns: 1fr 6fr;
     grid-template-areas: "he he"
-                         "na na"
+                         "as na"
                          "as ar"
                          "fo fo";
 }
+
+.h1 {
+    margin: 30px 0px 30px 0px;
+    background-color: #e6eff4;
+}
+.h2 {
+    margin: 30px 0px 30px 0px;
+    background-color: #e6eff4;
+}
+
 header {
     grid-area: he;
 }
@@ -62,12 +103,18 @@ nav {
 }
 article {
     grid-area: ar;
+    margin: 10px;
 }
 aside {
     grid-area: as;
+    background-color: #e6eff4;
+    margin: 10px;
 }
 footer {
     grid-area: fo;
+    text-align: center;
+    padding: 10px;
+    background-color: #e6eff4;
 }
 @media screen and (max-width:700px) {
     main {
