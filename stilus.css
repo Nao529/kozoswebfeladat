@@ -1,11 +1,13 @@
 body {
     color: black;
+    background-color: black;
+    margin: 0px;
 }
 
 
 #minecraft_logo {
-    
     text-align: center;
+    margin: 10px;
 }
 #minecraft_logo img {
     height: 50px;
@@ -61,6 +63,10 @@ body {
     background-color: #52463b;
 }
 
+#overworld_nav, #nether_nav, #end_nav {
+    border: 3px solid black;    
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -87,12 +93,14 @@ main {
 }
 
 .h1 {
-    margin: 30px 0px 30px 0px;
+    margin: 20px;
     background-color: #e6eff4;
+    border: 3px solid black;
 }
 .h2 {
-    margin: 30px 0px 30px 0px;
+    margin: 20px;
     background-color: #e6eff4;
+    border: 3px solid black;
 }
 
 header {
@@ -104,11 +112,14 @@ nav {
 article {
     grid-area: ar;
     margin: 10px;
+    margin-left: 0px;
 }
 aside {
     grid-area: as;
     background-color: #e6eff4;
     margin: 10px;
+    margin-top: 0px;
+    border: 3px solid black;
 }
 footer {
     grid-area: fo;
@@ -127,8 +138,10 @@ footer {
     }
     article {
         grid-template-columns: 1fr;
+        margin-left: 10px;
     }
     aside {
         grid-template-columns: 2fr;
+        margin-top: 10px;
     }
 }
