@@ -111,10 +111,13 @@ article {
 aside {
     grid-area: as;
     margin: 5px;
-    padding: 15px;
+    padding: 5px;
     margin-top: 0px;
     border: 3px solid black;
     background-image: url(kepek/bright_stone.png);
+}
+aside div img {
+    width: 100%;
 }
 footer{
     grid-area: fo;
