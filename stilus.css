@@ -13,13 +13,13 @@ body {
     height: 50px;
 }
 
-#overworld-body {
+#overworld_body {
     background-image: url(kepek/overworld/dirt.png);
 }
-#nether-body {
+#nether_body {
     background-image: url(kepek/nether/netherrack.png);
 }
-#end-body {
+#end_body {
     background-image: url(kepek/end/endstone.png);
 }
 
@@ -133,7 +133,21 @@ footer {
     color: white;
     border-top: 3px solid black;
     font-family: "MinecraftFont", sans-serif;
-    font-size: 30px;
+    font-size: 35px;
+}
+#overworld_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.overworld_grid_item {
+    background-image: url(kepek/wool.png);
+    border: 3px solid black;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+.overworld_grid_item img{
+    height: 70px;
 }
 @media screen and (max-width:700px) {
     main {
@@ -153,7 +167,6 @@ footer {
         margin-top: 10px;
     }
 }
-
 @font-face {
     font-family: "MinecraftFont";
     src: url("fontok/MinecraftRegular-Bmg3.otf") format("truetype");
