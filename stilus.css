@@ -64,7 +64,9 @@ body {
 }
 
 #overworld_nav, #nether_nav, #end_nav {
-    border: 3px solid black;    
+    border: 3px solid black;
+    font-family: "MinecraftFont", sans-serif;
+    font-size: 20px;
 }
 
 ul {
@@ -94,13 +96,11 @@ main {
 
 .h1 {
     margin: 20px;
-    background-color: #e6eff4;
     border: 3px solid black;
     background-image: url(kepek/bright_stone.png);
 }
 .h2 {
     margin: 20px;
-    background-color: #e6eff4;
     border: 3px solid black;
     background-image: url(kepek/bright_stone.png);
 }
@@ -118,7 +118,6 @@ article {
 }
 aside {
     grid-area: as;
-    background-color: #e6eff4;
     margin: 10px;
     margin-top: 0px;
     border: 3px solid black;
@@ -128,12 +127,13 @@ footer {
     grid-area: fo;
     text-align: center;
     padding: 10px;
-    background-color: #e6eff4;
     height: 100px;
     background-image: url(kepek/obsidian.png);
     background-size: 150px;
     color: white;
     border-top: 3px solid black;
+    font-family: "MinecraftFont", sans-serif;
+    font-size: 30px;
 }
 @media screen and (max-width:700px) {
     main {
@@ -152,4 +152,9 @@ footer {
         grid-template-columns: 2fr;
         margin-top: 10px;
     }
+}
+
+@font-face {
+    font-family: "MinecraftFont";
+    src: url("fontok/MinecraftRegular-Bmg3.otf") format("truetype");
 }
