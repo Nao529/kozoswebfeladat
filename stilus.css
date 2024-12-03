@@ -1,10 +1,16 @@
+/*tags*/
 body {
     color: black;
     background-color: black;
     margin: 0px;
 }
-
-
+.text {
+    margin: 15px;
+    padding: 10px;
+    border: 3px solid black;
+    background-image: url(kepek/bright_stone.png);
+}
+/*logó kép*/
 #minecraft_logo {
     text-align: center;
     margin: 10px;
@@ -12,7 +18,7 @@ body {
 #minecraft_logo img {
     height: 50px;
 }
-
+/*body hátterek*/
 #overworld_body {
     background-image: url(kepek/overworld/dirt.png);
 }
@@ -22,11 +28,10 @@ body {
 #end_body {
     background-image: url(kepek/end/endstone.png);
 }
-
+/*overworld navigáció*/
 #overworld_nav ul {
     background-color: #006c00;
 }
-
 #overworld_nav li a {
     color: #ffffff;
 }
@@ -36,7 +41,7 @@ body {
 #overworld_nav .active {
     background-color: #00550b;
 }
-
+/*nether navigáció*/
 #nether_nav ul {
     background-color: #800000;
 }
@@ -49,7 +54,7 @@ body {
 #nether_nav .active {
     background-color: #9e0000;
 }
-
+/*end navigáció*/
 #end_nav ul {
     background-color: #75675a;
 }
@@ -62,13 +67,12 @@ body {
 #end_nav .active {
     background-color: #52463b;
 }
-
+/*mind 3 nav*/
 #overworld_nav, #nether_nav, #end_nav {
     border: 3px solid black;
     font-family: "MinecraftFont", sans-serif;
     font-size: 20px;
 }
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -84,7 +88,7 @@ li a {
     padding: 15px 40px;
     text-decoration: none;
 } 
-
+/*gridek*/
 main {
     display: grid;
     grid-template-columns: 1fr 6fr;
@@ -93,18 +97,6 @@ main {
                          "as ar"
                          "fo fo";
 }
-
-.h1 {
-    margin: 20px;
-    border: 3px solid black;
-    background-image: url(kepek/bright_stone.png);
-}
-.h2 {
-    margin: 20px;
-    border: 3px solid black;
-    background-image: url(kepek/bright_stone.png);
-}
-
 header {
     grid-area: he;
 }
@@ -118,7 +110,8 @@ article {
 }
 aside {
     grid-area: as;
-    margin: 10px;
+    margin: 5px;
+    padding: 15px;
     margin-top: 0px;
     border: 3px solid black;
     background-image: url(kepek/bright_stone.png);
@@ -150,6 +143,7 @@ footer {
     height: 70px;
     image-rendering: pixelated;
 }
+/*reszponzivitás*/
 @media screen and (max-width:700px) {
     main {
         grid-template-columns: 1fr;
