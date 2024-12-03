@@ -137,7 +137,7 @@ footer {
 }
 #overworld_grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .overworld_grid_item {
     background-image: url(kepek/wool.png);
@@ -148,6 +148,7 @@ footer {
 }
 .overworld_grid_item img{
     height: 70px;
+    image-rendering: pixelated;
 }
 @media screen and (max-width:700px) {
     main {
@@ -165,6 +166,10 @@ footer {
     aside {
         grid-template-columns: 2fr;
         margin-top: 10px;
+    }
+    #overworld_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 @font-face {
