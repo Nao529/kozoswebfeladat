@@ -96,11 +96,13 @@ main {
     margin: 20px;
     background-color: #e6eff4;
     border: 3px solid black;
+    background-image: url(kepek/bright_stone.png);
 }
 .h2 {
     margin: 20px;
     background-color: #e6eff4;
     border: 3px solid black;
+    background-image: url(kepek/bright_stone.png);
 }
 
 header {
@@ -120,12 +122,14 @@ aside {
     margin: 10px;
     margin-top: 0px;
     border: 3px solid black;
+    background-image: url(kepek/bright_stone.png);
 }
 footer {
     grid-area: fo;
     text-align: center;
     padding: 10px;
     background-color: #e6eff4;
+    height: 100px;
 }
 @media screen and (max-width:700px) {
     main {
