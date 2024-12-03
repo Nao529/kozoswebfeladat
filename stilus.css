@@ -88,10 +88,10 @@ li a {
     padding: 15px 40px;
     text-decoration: none;
 } 
-/*gridek*/
+/*gridek, main stb..*/
 main {
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-areas: "he he"
                          "as na"
                          "as ar"
@@ -116,17 +116,17 @@ aside {
     border: 3px solid black;
     background-image: url(kepek/bright_stone.png);
 }
-footer {
+footer{
     grid-area: fo;
     text-align: center;
+    margin: 0px;
     padding: 10px;
-    height: 100px;
     background-image: url(kepek/obsidian.png);
     background-size: 150px;
     color: white;
     border-top: 3px solid black;
     font-family: "MinecraftFont", sans-serif;
-    font-size: 35px;
+    font-size: 25px;
 }
 #overworld_grid {
     display: grid;
@@ -166,6 +166,7 @@ footer {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+/*betűtípus*/
 @font-face {
     font-family: "MinecraftFont";
     src: url("fontok/MinecraftRegular-Bmg3.otf") format("truetype");
