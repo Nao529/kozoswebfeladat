@@ -88,7 +88,7 @@ li a {
     padding: 15px 40px;
     text-decoration: none;
 } 
-/*gridek, main stb..*/
+/*gridek, table, main stb..*/
 main {
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -145,6 +145,15 @@ footer{
 .overworld_grid_item img{
     height: 70px;
     image-rendering: pixelated;
+}
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
 }
 /*reszponzivitás*/
 @media screen and (max-width:700px) {
