@@ -1,4 +1,10 @@
 /*tags*/
+/*
+* {
+    filter:saturate(10);
+}
+*/
+
 body {
     color: black;
     background-color: black;
@@ -22,7 +28,6 @@ body {
 /*body hátterek*/
 #overworld_body {
     background-image: url(kepek/overworld/dirt.png);
-    filter: brightness();
 }
 #nether_body {
     background-image: url(kepek/nether/netherrack.png);
