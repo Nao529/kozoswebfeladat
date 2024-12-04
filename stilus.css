@@ -9,6 +9,7 @@ body {
     padding: 10px;
     border: 3px solid black;
     background-image: url(kepek/bright_stone.png);
+    box-shadow: 10px 10px #00000090;
 }
 /*logó kép*/
 #minecraft_logo {
@@ -21,6 +22,7 @@ body {
 /*body hátterek*/
 #overworld_body {
     background-image: url(kepek/overworld/dirt.png);
+    filter: brightness();
 }
 #nether_body {
     background-image: url(kepek/nether/netherrack.png);
@@ -72,6 +74,7 @@ body {
     border: 3px solid black;
     font-family: "MinecraftFont", sans-serif;
     font-size: 20px;
+    box-shadow: 10px 10px #00000090;
 }
 ul {
     list-style-type: none;
@@ -91,7 +94,7 @@ li a {
 /*gridek, table, main stb..*/
 main {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 2fr 9fr;
     grid-template-areas: "he he"
                          "as na"
                          "as ar"
@@ -110,11 +113,12 @@ article {
 }
 aside {
     grid-area: as;
-    margin: 5px;
+    margin: 20px;
     padding: 5px;
     margin-top: 0px;
     border: 3px solid black;
     background-image: url(kepek/bright_stone.png);
+    box-shadow: 10px 10px #00000090;
 }
 aside div img {
     width: 100%;
