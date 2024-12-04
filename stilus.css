@@ -144,6 +144,18 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+#daylight_cycle_gif{
+    float:right;
+}
+#daylight_cycle_gif img{
+    height:170px;
+}
+#ender_islands_image{
+    float:right;
+}
+#ender_islands_image img{
+    height:250px;
+}
 .overworld_grid_item {
     background-image: url(kepek/wool.png);
     border: 3px solid black;
