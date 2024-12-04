@@ -125,8 +125,12 @@ aside {
     background-image: url(kepek/bright_stone.png);
     box-shadow: 10px 10px #00000090;
 }
-aside div img {
-    width: 100%;
+aside ul li a{
+    padding: 4px;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+aside ul li{
+    padding:4px;
 }
 footer{
     grid-area: fo;
