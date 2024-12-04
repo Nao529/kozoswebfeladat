@@ -160,6 +160,12 @@ footer{
 #ender_islands_image img{
     height:250px;
 }
+#nether_portal_image{
+    float:right;
+}
+#nether_portal_image img{
+    height:170px;
+}
 .overworld_grid_item {
     background-image: url(kepek/wool.png);
     border: 3px solid black;
