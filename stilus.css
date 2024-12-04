@@ -125,8 +125,12 @@ aside {
     background-image: url(kepek/bright_stone.png);
     box-shadow: 10px 10px #00000090;
 }
-aside div img {
-    width: 100%;
+aside ul li a{
+    padding: 4px;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+aside ul li{
+    padding:4px;
 }
 footer{
     grid-area: fo;
@@ -143,6 +147,24 @@ footer{
 #overworld_grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#daylight_cycle_gif{
+    float:right;
+}
+#daylight_cycle_gif img{
+    height:170px;
+}
+#ender_islands_image{
+    float:right;
+}
+#ender_islands_image img{
+    height:250px;
+}
+#nether_portal_image{
+    float:right;
+}
+#nether_portal_image img{
+    height:170px;
 }
 .overworld_grid_item {
     background-image: url(kepek/wool.png);
